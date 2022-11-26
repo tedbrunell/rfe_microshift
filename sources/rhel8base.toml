@@ -1,0 +1,7 @@
+id = "rhel8base"
+name = "RHEL8Base"
+type = "yum-baseurl"
+url = "https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os"
+check_gpg = false
+check_ssl = false
+rhsm = true

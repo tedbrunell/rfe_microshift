@@ -1,0 +1,7 @@
+id = "rhel8appstream"
+name = "RHEL 8 AppStream"
+type = "yum-baseurl"
+url = "https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os"
+check_gpg = false
+check_ssl = false
+rhsm = true

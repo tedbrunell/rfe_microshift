@@ -1,0 +1,44 @@
+{
+  "sources": {
+    "rhocp": {
+      "id": "rhocp",
+      "name": "rhocp",
+      "type": "yum-baseurl",
+      "url": "https://cdn.redhat.com/content/dist/layered/rhel8/x86_64/rhocp/4.8/os",
+      "check_gpg": false,
+      "check_ssl": true,
+      "system": true,
+      "rhsm": true
+    },
+    "microshift": {
+      "id": "microshift",
+      "name": "MicroShift",
+      "type": "yum-baseurl",
+      "url": "https://download.copr.fedorainfracloud.org/results/@redhat-et/microshift/epel-8-x86_64/",
+      "check_gpg": false,
+      "check_ssl": false,
+      "system": false,
+      "rhsm": false
+    },
+    "rhel8base": {
+      "id": "rhel8base",
+      "name": "RHEL8Base",
+      "type": "yum-baseurl",
+      "url": "https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os",
+      "check_gpg": false,
+      "check_ssl": false,
+      "system": false,
+      "rhsm": false
+    },
+    "appstream8": {
+      "id": "appstream8",
+      "name": "AppStream8",
+      "type": "yum-baseurl",
+      "url": "https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os",
+      "check_gpg": false,
+      "check_ssl": false,
+      "system": false,
+      "rhsm": false
+    }
+  }
+}
