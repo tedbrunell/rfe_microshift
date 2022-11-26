@@ -2,5 +2,5 @@
 description = "global allow list"
 paths = [
   '''gitleaks\.toml''',
-  '''(.*?)(json|toml)'''
+  '''(.*?)(json|toml)$'''
 ]
