@@ -1,6 +1,7 @@
 name = "microshift-installer"
 description = ""
 version = "0.0.1"
+distro = "rhel-85"
 modules = []
 groups = []
 packages = []

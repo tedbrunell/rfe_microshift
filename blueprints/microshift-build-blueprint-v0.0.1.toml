@@ -2,6 +2,7 @@ name = "microshift-build"
 
 description = "Build an OSTree Microshift Image"
 version = "0.0.1"
+distro = "rhel-85"
 modules = []
 groups = []
 
