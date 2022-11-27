@@ -1,7 +1,8 @@
 id = "rhocp"
 name = "RHOCP"
 type = "yum-baseurl"
-url = "https://cdn.redhat.com/content/dist/layered/rhel8/x86_64/rhocp/4.8/os"
+url = "https://cdn.redhat.com/content/dist/layered/rhel8/x86_64/rhocp/4.11/os"
 check_gpg = false
 check_ssl = false
+system = false
 rhsm = true
